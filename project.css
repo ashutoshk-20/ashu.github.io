@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.List{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,auto);
+    gap: 10px;
+    grid-auto-rows: auto;
+    grid-auto-columns: auto;
+}
+
+.items{
+    display: flex;
+    background-color: orange;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 5px;
+}
+
+p{
+    font-family: 'Workbench', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
